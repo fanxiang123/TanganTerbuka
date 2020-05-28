@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#a1a3a8</color>
+    <color name="red">#F44336</color>
+    <color name="tanganterbuka">#35384b</color>
+    <color name="app_list">#3f4457</color>
+    <color name="app_btn">#5c5f70</color>
+    <color name="yellow">#ffda1c</color>
+    <color name="login_input">#5c6070</color>
+    <color name="btn_login">#cfa972</color>
+    <color name="btn_login_no">#887866</color>
+    <color name="blue">#a2a8f5</color>
+    <color name="details_num">#cfa972</color>
+</resources>

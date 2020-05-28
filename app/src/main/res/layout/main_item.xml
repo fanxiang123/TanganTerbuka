@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:background="@color/tanganterbuka"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:text="TANGAN TERBUKA"
+                    android:textSize="18dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/my"
+                    android:layout_gravity="right"
+                    android:src="@mipmap/home_1"
+                    android:background="@drawable/bg_ripple"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:text="Mudah d!setuju!"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/btn01"
+                    android:layout_weight="1"
+                    android:background="@mipmap/btn01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+                <Button
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:text="Produk terbaru"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:id="@+id/btn02"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/btn01"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
